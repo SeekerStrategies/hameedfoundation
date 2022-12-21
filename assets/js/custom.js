@@ -8,6 +8,14 @@ $(window).scroll(function() {
     }
 });
 
+
+$(function(){ 
+    var navMain = $("#collapsibleNavbar");
+    navMain.on("click", "a", null, function () {
+        navMain.collapse('hide');
+    });
+});
+
 // Counter To Count Number Visit
 var height = 0;
 $(window).scroll(function() {

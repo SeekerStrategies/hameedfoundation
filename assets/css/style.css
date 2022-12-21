@@ -384,10 +384,11 @@ section#contact{
 }
 @media only screen and (max-width: 480px){
     .logo {
-        width: 250px;
+        width: 270px;
+        margin-right: 0 !important;
     }
     .sticky_header .logo {
-        width: 240px;
+        width: 260px;
     }
     .banner-content h1 {
         font-size: 28px;
