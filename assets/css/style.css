@@ -195,7 +195,7 @@ ul.navbar-nav {
 
 
 .contact-form form input{
-    margin-bottom: 34px;
+    margin-bottom: 24px;
     background-color: #eee;
     border: none!important;
     font-family: 'Poppins';
@@ -260,15 +260,20 @@ section#contact{
     nav ul li.nav-item:not(:last-child){
         padding-right: 15px;
     }
-   
+    .counter-sec .percent-value{
+        font-size: 58px;
+        line-height: 62px;
+    }
 }
 @media only screen and (max-width: 990px){
     .logo {
         width: 340px;
         height: 40px;
     }
+    .sticky_header .logo {
+        width: 320px;
+    }
      .banner-content {
-        max-width: 90%;
         padding: 50px;
     }
     .banner-content h1 {
@@ -278,7 +283,7 @@ section#contact{
 }
 @media only screen and (max-width: 768px){
     .banner {
-        padding: 160px 0 80px 0;
+        padding: 100px 0 80px 0;
     }
     .banner-content h1 {
         font-size: 38px;
@@ -306,6 +311,8 @@ section#contact{
     .navbar-expand-md .navbar-nav {
         flex-direction: column !important;
         margin-bottom: 20px;
+        align-items: baseline;
+        margin-left: 12px;
     }
     .navbar-collapse{
         flex-basis: 100% !important;
@@ -315,10 +322,7 @@ section#contact{
         padding: 0;
     }
     nav ul li.nav-item a.nav-link {
-        padding: 10px 0 !important;
-    }
-    nav ul li.nav-item:not(:last-child) a.nav-link {
-        border-bottom: 1px solid rgba(0,0,0,.07);
+        padding: 14px 0 0px 0 !important;
     }
     .navbar-nav {
         margin-top: 10px;
@@ -348,10 +352,41 @@ section#contact{
         font-size: 32px;
         line-height: 38px;
     }
+    .banner {
+        padding: 40px 0 0px 0;
+    }    
+    .banner-content {
+        padding: 50px 10px;
+    }
+    .hameed-family-sec h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .hameed-family-sec {
+        padding: 70px 0;
+    }
+    .hameed-family-sec p {
+        font-size: 17px;
+    }
+    .counter-sec {
+        padding: 80px 0 60px 0;
+    }
+    .contact-form h3 {
+        font-size: 20px;
+    }
+    .contact-form form input {
+        margin-bottom: 24px;
+    }
+    section#contact {
+        padding: 70px 0 100px 0;
+    }
 }
 @media only screen and (max-width: 480px){
     .logo {
         width: 250px;
+    }
+    .sticky_header .logo {
+        width: 240px;
     }
     .banner-content h1 {
         font-size: 28px;
