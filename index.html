@@ -26,7 +26,7 @@
     <!-- fontawesome icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Favicon Icon -->
-    <link rel="icon" href="assets/images/favicon.jpg" sizes="32x32">
+    <link rel="icon" href="assets/images/favicon.png" sizes="32x32">
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,11 +74,11 @@
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-md-0 mb-4">
           <h3>Apply for a Scholarship</h3>
-          <p>Every child should have the opportunity to learn, excel, and contribute to our country, Sri Lanka. <a href="#">Use the form below to get in touch with us and request an application.</a></p>
+          <p>Every child should have the opportunity to learn, excel, and contribute to our country, Sri Lanka. <a href="#contact">Use the form below to get in touch with us and request an application.</a></p>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mt-lg-0 mt-md-4">
           <h3>Give to the Foundation</h3>
-          <p>Our students and teachers need your support, any amount helps this great cause. <em>Interested in making a donation? <a href="#">Use the form below</a> and a member of our team will show you how!</em> </p>
+          <p>Our students and teachers need your support, any amount helps this great cause. <em>Interested in making a donation? <a href="#contact">Use the form below</a> and a member of our team will show you how!</em> </p>
         </div>
       </div>
     </div>
@@ -128,17 +128,17 @@
     <div class="container">
         <div class="contact-form">
             <h3 class="text-center">Interested in more information? Contact us using the form below.</h3>
-            <form>
+            <form action="https://formspree.io/f/mgebwzqa" method="POST">
                 <div class="row">
                     <div class="col-md-6 col-12">
-                      <input type="text" class="form-control" placeholder="Name" aria-label="First name">
+                      <input type="text" class="form-control" placeholder="Name" name="Name" required>
                     </div>
                     <div class="col-md-6 col-12">
-                      <input type="email" class="form-control" placeholder="Email Address" aria-label="email address">
+                      <input type="email" class="form-control" placeholder="Email Address" name="Email" required>
                     </div>
                   </div>
                   <div class="mb-3">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" name="Message" required></textarea>
                   </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>

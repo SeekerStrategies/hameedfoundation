@@ -97,6 +97,7 @@ nav ul li.nav-item:not(:last-child){
     text-align: center;
     margin-top: 65px;
     position: relative;
+    background-attachment: fixed;
 }
 .banner:before {
     position: absolute;
